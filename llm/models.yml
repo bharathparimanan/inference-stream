@@ -1,0 +1,14 @@
+default: llama3-70b
+
+models:
+  llama3-70b:
+    id: meta-llama/Llama-3.3-70B-Instruct-Turbo
+    provider: together
+    max_tokens: 1024
+    temperature: 0.0
+
+  llama3-8b:
+    id: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+    provider: together
+    max_tokens: 512
+    temperature: 0.0
