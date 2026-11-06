@@ -1,0 +1,34 @@
+{
+  "run_id": "2026-11-05_13-33-42",
+  "summary": {
+    "total": 3,
+    "passed": 3,
+    "failed": 0
+  },
+  "traces": [
+    {
+      "id": "live-ctx-a",
+      "type": "context",
+      "query": "what is inference",
+      "outcome": "pass",
+      "grader": "structure: list, roles=[system...user], system non-empty",
+      "detail": "2 messages, roles=['system', 'user']"
+    },
+    {
+      "id": "live-ctx-b",
+      "type": "context",
+      "query": "what is inference",
+      "outcome": "pass",
+      "grader": "query preserved as last user message",
+      "detail": "query preserved: 'what is inference'"
+    },
+    {
+      "id": "live-res-a",
+      "type": "response",
+      "query": "what is inference",
+      "outcome": "pass",
+      "grader": "response is non-empty",
+      "detail": "response is non-empty (699 chars)"
+    }
+  ]
+}

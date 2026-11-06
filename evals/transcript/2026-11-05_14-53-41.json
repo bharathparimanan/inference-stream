@@ -1,0 +1,34 @@
+{
+  "run_id": "2026-11-05_14-53-41",
+  "summary": {
+    "total": 3,
+    "passed": 3,
+    "failed": 0
+  },
+  "traces": [
+    {
+      "id": "live-ctx-a",
+      "type": "context",
+      "query": "check the summary",
+      "outcome": "pass",
+      "grader": "structure: list, roles=[system...user], system non-empty",
+      "detail": "2 messages, roles=['system', 'user']"
+    },
+    {
+      "id": "live-ctx-b",
+      "type": "context",
+      "query": "check the summary",
+      "outcome": "pass",
+      "grader": "query preserved as last user message",
+      "detail": "query preserved: 'check the summary'"
+    },
+    {
+      "id": "live-res-a",
+      "type": "response",
+      "query": "check the summary",
+      "outcome": "pass",
+      "grader": "response is non-empty",
+      "detail": "response is non-empty (723 chars)"
+    }
+  ]
+}
