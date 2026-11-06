@@ -1,0 +1,14 @@
+[project]
+name = "inference-stream"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "anthropic>=2.3.0",
+    "psycopg2-binary>=2.9.13",
+    "python-dotenv>=1.2.4",
+    "sentence-transformers>=6.2.0",
+    "streamlit>=1.40.0",
+    "together>=3.0.0",
+]
